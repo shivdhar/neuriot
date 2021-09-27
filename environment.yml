@@ -142,6 +142,7 @@ dependencies:
   - six=1.16.0=pyhd3eb1b0_0
   - sniffio=1.2.0=py39h06a4308_1
   - sqlite=3.36.0=hc218d9a_0
+  - tabulate=0.8.9=py39h06a4308_0
   - tbb=2021.3.0=hd09550d_0
   - terminado=0.9.4=py39h06a4308_0
   - testpath=0.5.0=pyhd3eb1b0_0
@@ -172,6 +173,7 @@ dependencies:
     - regex==2021.9.24
     - sacremoses==0.0.46
     - tokenizers==0.10.3
+    - torchmetrics==0.5.1
     - tqdm==4.62.3
     - transformers==4.10.3
 prefix: /home/dev2/anaconda3/envs/neuriot
