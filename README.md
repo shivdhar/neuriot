@@ -15,4 +15,4 @@ We treat this as a multi-label classification problem. We use a pretrained Disti
 
 - Systematically tune hyperparameters of model, optimizer, etc. for better accuracy.
 - Try a hierarchical classifier which identifies a particular aspect and then classifies its polarity.
-- If inference time is an issue, drop the pretrained transformer part and use an RNN(GRU/LSTM) for generating review embeddings. We would probably lose some performance but gain very fast predictions on CPU.
+- If inference time is an issue, drop the pretrained transformer part and use an RNN (GRU/LSTM) for generating review embeddings. We would probably lose some performance but gain very fast predictions on CPU.
