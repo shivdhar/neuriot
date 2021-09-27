@@ -2,13 +2,21 @@
 
 ## Author: Shiv Dhar
 
+
+# Setup
+
+Please ensure `conda` is installed and available on your path
+
+Run:
+```bash
+conda env create -f=environment.yml
+jupyter lab
+```
 # Current Approach
 
 - We treat this as a multi-label classification problem. 
 - We use a pretrained DistilBert model and finetune it on the sentisum data outputting zero or more of 59 available classes.
-
 - We clean the data, correcting the labels of three misspelled classes.
-- Since there is no test data, we output predictions directly on the input dataset.
 
 # Scores on Validation Set
 
